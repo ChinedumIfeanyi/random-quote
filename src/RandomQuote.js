@@ -22,8 +22,10 @@ class RandomQuote extends Component {
     fetch(this.props.url)
     .then(result => result.json())
     .then(response => {
-      let random = Math.floor(Math.random() * response.length)
+      //console.log(response.quotes)
+      let random = Math.floor(Math.random() * response.quotes.length)
       const data = response.quotes[random]
+      //console.log(data)
       //setstate
       this.setState({
         data
