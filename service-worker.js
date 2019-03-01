@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ChinedumIfeanyi/random-quote/precache-manifest.e291b4c676bfc5ea9aa6f27bf86e3b3b.js"
+  "/ChinedumIfeanyi/random-quote/precache-manifest.ca88dc664b7a5b823126bb53a932aa9f.js"
 );
 
 workbox.clientsClaim();
